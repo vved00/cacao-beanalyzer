@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/result"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageResult"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/result_image"/>
+
+    <TextView
+        android:id="@+id/level_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/result_name"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/openDetails"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/open_details"
+        android:background="@drawable/button_border"
+        android:textColor="@color/dark_brown"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/scan_another_cacao"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/scan_cacao"
+        android:background="@drawable/button_border"
+        android:textColor="@color/dark_brown"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/look_for_another_cacao"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/browse_gallery"
+        android:background="@drawable/button_border"
+        android:textColor="@color/dark_brown"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

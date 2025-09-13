@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cacao Beanalyzer</string>
+    <string name="scan_cacao">Scan Cacao</string>
+    <string name="browse_gallery">Look for Cacao</string>
+    <string name="logo">Logo</string>
+    <string name="open_details">Open Details</string>
+    <string name="result">Result</string>
+    <string name="result_image">Result Image</string>
+    <string name="result_name">Test</string>
+    <string name="desc">Description</string>
+    <string name="flavor">Flavor:</string>
+    <string name="reco">Recommendation:</string>
+    <string name="back">Back</string>
+</resources>
